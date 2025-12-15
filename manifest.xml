@@ -10,7 +10,7 @@
   <HighResolutionIconUrl DefaultValue="https://codewithabubakr.github.io/Scaleflex-Word-Add-in/assets/icon-64.png"/>
   <SupportUrl DefaultValue="https://scaleflex.zendesk.com"/>
   <AppDomains>
-    <AppDomain>http://localhost:3000/</AppDomain>
+    <AppDomain>https://codewithabubakr.github.io/Scaleflex-Word-Add-in/</AppDomain>
     <AppDomain>https://oauth2.sfxconnector.com</AppDomain>
     <AppDomain>https://hub.scaleflex.com</AppDomain>
   </AppDomains>
