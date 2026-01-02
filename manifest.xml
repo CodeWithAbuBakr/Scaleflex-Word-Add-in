@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
-  <Id>d5062f62-b5b5-441b-9f75-ce4cc13729e9</Id>
+  <Id>f9d830d6-3b80-4921-9c53-9f3cfb29a9a0</Id>
   <Version>1.0.0.0</Version>
   <ProviderName>Scaleflex DAM</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Scaleflex DAM"/>
+  <DisplayName DefaultValue="ScaleFlex DAM"/>
   <Description DefaultValue="Connect to your digital assets library. Search, preview, use or upload images. Export to the DAM."/>
   <IconUrl DefaultValue="https://oauth2.sfxconnector.com/ms365-client/word/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://oauth2.sfxconnector.com/ms365-client/word/assets/icon-64.png"/>
   <SupportUrl DefaultValue="https://scaleflex.zendesk.com"/>
   <AppDomains>
-    <AppDomain>https://oauth2.sfxconnector.com/ms365-client/word/</AppDomain>
+    <AppDomain>https://localhost:3000</AppDomain>
     <AppDomain>https://oauth2.sfxconnector.com</AppDomain>
     <AppDomain>https://hub.scaleflex.com</AppDomain>
   </AppDomains>
@@ -79,8 +79,8 @@
         <bt:String id="TaskpaneButton.Label" DefaultValue="Scaleflex DAM"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="GetStarted.Description" DefaultValue="Browse and insert images from your library to enrich your document."/>
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to open the Scaleflex DAM asset library."/>
+        <bt:String id="GetStarted.Description" DefaultValue="Browse and insert images from your library to enrich your presentation."/>
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to open the Scaleflex DAM asset library"/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
